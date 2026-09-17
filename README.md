@@ -1,6 +1,6 @@
 # JavaScript Quiz
 
-Ett quizspel skapat som grupparbete under min utbildning till Backend webbutvecklare.
+Ett quizspel skapat som grupparbete under kursen JavaScript 1 på min utbildning till Backend webbutvecklare.
 
 Projektet är byggt med HTML, CSS och JavaScript och testar användarens grundläggande kunskaper inom JavaScript.
 
