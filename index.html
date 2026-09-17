@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Quiz</title>
+  </head>
+
+  <body>
+    <main class="container">
+      <div class="rubrikBox">
+        <h1>Quizspel!</h1>
+      </div>
+      <!-- Generell information gällande quizzet -->
+      <header class="quiz-header">
+        <p id="question-number">Fråga: 1/8</p>
+        <h1 id="quiz-title">Nummer på frågan skrivs här</h1>
+        <p id="score">Poäng: 0</p>
+      </header>
+
+      <!-- Här ställs frågan och ändras genom DOM manipulation -->
+      <section class="question-box">
+        <h2 id="question-text">Skriver själva frågan</h2>
+      </section>
+
+      <!-- Innehåller 4 olika svarsalternativ, DOM manipulation -->
+      <section class="answers-box">
+        <button tabindex="0" class="answer-btn" id="svar1">
+          Svarsalternativ 1
+        </button>
+        <button tabindex="1" class="answer-btn" id="svar2">
+          Svarsalternativ 2
+        </button>
+        <button tabindex="2" class="answer-btn" id="svar3">
+          Svarsalternativ 3
+        </button>
+        <button tabindex="3" class="answer-btn" id="svar4">
+          Svarsalternativ 4
+        </button>
+      </section>
+
+      <section class="feedback-box">
+        <p id="feedback"></p>
+      </section>
+
+      <!-- Skickar svaret till en JS funktion -->
+      <footer class="quiz-footer">
+        <button tabindex="4" id="next-btn" class="btn">Nästa fråga</button>
+        <button tabindex="5" id="restart-btn" class="btn">Restart</button>
+      </footer>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
